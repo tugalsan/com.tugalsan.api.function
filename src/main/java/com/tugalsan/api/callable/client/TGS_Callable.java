@@ -1,6 +1,8 @@
 package com.tugalsan.api.callable.client;
 
-public interface TGS_Callable<R> {
+import java.util.concurrent.Callable;
+
+public interface TGS_Callable<R> extends Callable<R>{
 
     public R call();
 }
