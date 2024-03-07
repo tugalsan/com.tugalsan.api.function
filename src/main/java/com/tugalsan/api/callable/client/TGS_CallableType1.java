@@ -4,7 +4,7 @@ public interface TGS_CallableType1<R, A> {
 
     public R call(A result);
 
-    default Void Void() {
-        return TGS_CallableVoid.of();
+    default R Void() {
+        return TGS_CallableUtils.Null();
     }
 }
