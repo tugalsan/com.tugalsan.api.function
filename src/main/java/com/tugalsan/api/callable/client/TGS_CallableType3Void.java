@@ -1,6 +1,5 @@
 package com.tugalsan.api.callable.client;
 
-@Deprecated //WILL IT WORK ON GWT?
 public interface TGS_CallableType3Void<A, B, C> extends TGS_CallableType3<Void, A, B, C> {
 
     @Override
