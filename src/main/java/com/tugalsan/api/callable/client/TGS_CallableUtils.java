@@ -6,7 +6,7 @@ public class TGS_CallableUtils {
         return (T) null;
     }
 
-    public static TGS_Callable doNothing0() {
+    public static TGS_CallableType0 doNothing0() {
         return () -> Null();
     }
 
