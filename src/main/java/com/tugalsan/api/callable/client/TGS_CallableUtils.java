@@ -30,66 +30,66 @@ public class TGS_CallableUtils {
         return (w1, w2, w3, w4, w5) -> Null();
     }
 
-    public static <R> TGS_CallableType0Void toVoid(TGS_CallableType0<R> call) {
+    public static <R> TGS_CallableType0_Run toVoid(TGS_CallableType0<R> call) {
         return () -> call.call();
     }
 
-    public static <R> TGS_CallableType0<R> toR(TGS_CallableType0Void call) {
+    public static <R> TGS_CallableType0<R> toR(TGS_CallableType0_Run call) {
         return () -> {
             call.call();
             return null;
         };
     }
 
-    public static <R, A> TGS_CallableType1Void<A> toVoid(TGS_CallableType1<R, A> call) {
+    public static <R, A> TGS_CallableType1_Run<A> toVoid(TGS_CallableType1<R, A> call) {
         return a -> call.call(a);
     }
 
-    public static <R, A> TGS_CallableType1<R, A> toR(TGS_CallableType1Void<A> call) {
+    public static <R, A> TGS_CallableType1<R, A> toR(TGS_CallableType1_Run<A> call) {
         return a -> {
             call.call(a);
             return null;
         };
     }
 
-    public static <R, A, B> TGS_CallableType2Void<A, B> toVoid(TGS_CallableType2<R, A, B> call) {
+    public static <R, A, B> TGS_CallableType2_Run<A, B> toVoid(TGS_CallableType2<R, A, B> call) {
         return (a, b) -> call.call(a, b);
     }
 
-    public static <R, A, B> TGS_CallableType2<R, A, B> toR(TGS_CallableType2Void<A, B> call) {
+    public static <R, A, B> TGS_CallableType2<R, A, B> toR(TGS_CallableType2_Run<A, B> call) {
         return (a, b) -> {
             call.call(a, b);
             return null;
         };
     }
 
-    public static <R, A, B, C> TGS_CallableType3Void<A, B, C> toVoid(TGS_CallableType3<R, A, B, C> call) {
+    public static <R, A, B, C> TGS_CallableType3_Run<A, B, C> toVoid(TGS_CallableType3<R, A, B, C> call) {
         return (a, b, c) -> call.call(a, b, c);
     }
 
-    public static <R, A, B, C> TGS_CallableType3<R, A, B, C> toR(TGS_CallableType3Void<A, B, C> call) {
+    public static <R, A, B, C> TGS_CallableType3<R, A, B, C> toR(TGS_CallableType3_Run<A, B, C> call) {
         return (a, b, c) -> {
             call.call(a, b, c);
             return null;
         };
     }
 
-    public static <R, A, B, C, D> TGS_CallableType4Void<A, B, C, D> toVoid(TGS_CallableType4<R, A, B, C, D> call) {
+    public static <R, A, B, C, D> TGS_CallableType4_Run<A, B, C, D> toVoid(TGS_CallableType4<R, A, B, C, D> call) {
         return (a, b, c, d) -> call.call(a, b, c, d);
     }
 
-    public static <R, A, B, C, D> TGS_CallableType4<R, A, B, C, D> toR(TGS_CallableType4Void<A, B, C, D> call) {
+    public static <R, A, B, C, D> TGS_CallableType4<R, A, B, C, D> toR(TGS_CallableType4_Run<A, B, C, D> call) {
         return (a, b, c, d) -> {
             call.call(a, b, c, d);
             return null;
         };
     }
 
-    public static <R, A, B, C, D, E> TGS_CallableType5Void<A, B, C, D, E> toVoid(TGS_CallableType5<R, A, B, C, D, E> call) {
+    public static <R, A, B, C, D, E> TGS_CallableType5_Run<A, B, C, D, E> toVoid(TGS_CallableType5<R, A, B, C, D, E> call) {
         return (a, b, c, d, e) -> call.call(a, b, c, d, e);
     }
 
-    public static <R, A, B, C, D, E> TGS_CallableType5<R, A, B, C, D, E> toR(TGS_CallableType5Void<A, B, C, D, E> call) {
+    public static <R, A, B, C, D, E> TGS_CallableType5<R, A, B, C, D, E> toR(TGS_CallableType5_Run<A, B, C, D, E> call) {
         return (a, b, c, d, e) -> {
             call.call(a, b, c, d, e);
             return null;

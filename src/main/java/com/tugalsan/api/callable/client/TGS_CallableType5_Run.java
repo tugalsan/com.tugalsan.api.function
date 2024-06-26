@@ -1,6 +1,6 @@
 package com.tugalsan.api.callable.client;
 
-public interface TGS_CallableType5Void<A, B, C, D, E> extends TGS_CallableType5<Void, A, B, C, D, E> {
+public interface TGS_CallableType5_Run<A, B, C, D, E> extends TGS_CallableType5<Void, A, B, C, D, E> {
 
     @Override
     default Void call(A input0, B input1, C input2, D input3, E input4) {
