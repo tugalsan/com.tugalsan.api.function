@@ -1,6 +1,6 @@
 package com.tugalsan.api.function.client;
 
-public interface TGS_Func_OutNone_In0 extends Runnable, TGS_Func_OutTyped_In0<Void> {
+public interface TGS_Func extends Runnable, TGS_Func_OutTyped<Void> {
 
     @Override
     default Void call() {
