@@ -1,4 +1,4 @@
-package com.tugalsan.api.callable.client;
+package com.tugalsan.api.function.client;
 
 public interface TGS_CallableType3_Validate<A, B, C> extends TGS_CallableType3<Boolean, A, B, C> {
 

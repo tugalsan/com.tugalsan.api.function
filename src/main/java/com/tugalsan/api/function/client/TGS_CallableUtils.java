@@ -1,4 +1,4 @@
-package com.tugalsan.api.callable.client;
+package com.tugalsan.api.function.client;
 
 public class TGS_CallableUtils {
 

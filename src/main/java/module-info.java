@@ -1,3 +1,3 @@
-module com.tugalsan.api.callable {
-    exports com.tugalsan.api.callable.client;
+module com.tugalsan.api.function {
+    exports com.tugalsan.api.function.client;
 }

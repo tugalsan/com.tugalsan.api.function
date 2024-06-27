@@ -1,4 +1,4 @@
-package com.tugalsan.api.callable.client;
+package com.tugalsan.api.function.client;
 
 public interface TGS_CallableType4_Run<A, B, C, D> extends TGS_CallableType4<Void, A, B, C, D> {
 

@@ -1,4 +1,4 @@
-package com.tugalsan.api.callable.client;
+package com.tugalsan.api.function.client;
 
 //import com.tugalsan.api.unsafe.client.*;
 import java.util.*;
