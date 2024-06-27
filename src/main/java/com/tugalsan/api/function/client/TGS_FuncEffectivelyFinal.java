@@ -3,41 +3,41 @@ package com.tugalsan.api.function.client;
 //import com.tugalsan.api.unsafe.client.*;
 import java.util.*;
 
-public class TGS_FuncCoronator<T> {
+public class TGS_FuncEffectivelyFinal<T> {
 
     //CONSTRUCTOR
     private T bufferedValue;
 
-    public TGS_FuncCoronator(T initVal) {
+    public TGS_FuncEffectivelyFinal(T initVal) {
         bufferedValue = initVal;
     }
 
-    public static <T> TGS_FuncCoronator<T> of(Class<T> clazz) {
-        return new TGS_FuncCoronator(null);
+    public static <T> TGS_FuncEffectivelyFinal<T> of(Class<T> clazz) {
+        return new TGS_FuncEffectivelyFinal(null);
     }
 
-    public static <T> TGS_FuncCoronator<T> of(T initialValue) {
-        return new TGS_FuncCoronator(initialValue);
+    public static <T> TGS_FuncEffectivelyFinal<T> of(T initialValue) {
+        return new TGS_FuncEffectivelyFinal(initialValue);
     }
 
-    public static TGS_FuncCoronator<String> ofStr() {
-        return new TGS_FuncCoronator(null);
+    public static TGS_FuncEffectivelyFinal<String> ofStr() {
+        return new TGS_FuncEffectivelyFinal(null);
     }
 
-    public static TGS_FuncCoronator<Long> ofLng() {
-        return new TGS_FuncCoronator(null);
+    public static TGS_FuncEffectivelyFinal<Long> ofLng() {
+        return new TGS_FuncEffectivelyFinal(null);
     }
 
-    public static TGS_FuncCoronator<Integer> ofInt() {
-        return new TGS_FuncCoronator(null);
+    public static TGS_FuncEffectivelyFinal<Integer> ofInt() {
+        return new TGS_FuncEffectivelyFinal(null);
     }
 
-    public static TGS_FuncCoronator<Double> ofDbl() {
-        return new TGS_FuncCoronator(null);
+    public static TGS_FuncEffectivelyFinal<Double> ofDbl() {
+        return new TGS_FuncEffectivelyFinal(null);
     }
 
-    public static TGS_FuncCoronator<Boolean> ofBool() {
-        return new TGS_FuncCoronator(null);
+    public static TGS_FuncEffectivelyFinal<Boolean> ofBool() {
+        return new TGS_FuncEffectivelyFinal(null);
     }
 
     //LOADERS
@@ -59,22 +59,22 @@ public class TGS_FuncCoronator<T> {
     }
     private final List<Act<T>> pack = new ArrayList();
 
-    public TGS_FuncCoronator<T> anoint(TGS_Func_OutTyped_In1<T, T> val) {
+    public TGS_FuncEffectivelyFinal<T> anoint(TGS_Func_OutTyped_In1<T, T> val) {
         pack.add(new Act(val, null, Type.SKIPPER));
         return this;
     }
 
-    public TGS_FuncCoronator<T> coronateIf(TGS_Func_OutBool_In1<T> validate) {
+    public TGS_FuncEffectivelyFinal<T> coronateIf(TGS_Func_OutBool_In1<T> validate) {
         pack.add(new Act(null, validate, Type.STOPPER));
         return this;
     }
 
-    public TGS_FuncCoronator<T> anointIf(TGS_Func_OutBool_In1<T> validate, TGS_Func_OutTyped_In1<T, T> val) {
+    public TGS_FuncEffectivelyFinal<T> anointIf(TGS_Func_OutBool_In1<T> validate, TGS_Func_OutTyped_In1<T, T> val) {
         pack.add(new Act(val, validate, Type.SKIPPER));
         return this;
     }
 
-    public TGS_FuncCoronator<T> anointAndCoronateIf(TGS_Func_OutBool_In1<T> validate, TGS_Func_OutTyped_In1<T, T> val) {
+    public TGS_FuncEffectivelyFinal<T> anointAndCoronateIf(TGS_Func_OutBool_In1<T> validate, TGS_Func_OutTyped_In1<T, T> val) {
         pack.add(new Act(val, validate, Type.STOPPER));
         return this;
     }
