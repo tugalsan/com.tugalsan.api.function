@@ -1,6 +1,6 @@
 package com.tugalsan.api.function.client;
 
-public interface TGS_CallableType5_Validate<A, B, C, D, E> extends TGS_CallableType5<Boolean, A, B, C, D, E> {
+public interface TGS_Func_OutBool_In5<A, B, C, D, E> extends TGS_Func_OutTyped_In5<Boolean, A, B, C, D, E> {
 
     @Override
     default Boolean call(A input0, B input1, C input2, D input3, E input4) {

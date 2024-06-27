@@ -1,11 +1,11 @@
 package com.tugalsan.api.function.client;
 
-public interface TGS_CallableType4_Run<A, B, C, D> extends TGS_CallableType4<Void, A, B, C, D> {
+public interface TGS_Func_OutNone_In4<A, B, C, D> extends TGS_Func_OutTyped_In4<Void, A, B, C, D> {
 
     @Override
     default Void call(A input0, B input1, C input2, D input3) {
         run(input0, input1, input2, input3);
-        return TGS_CallableUtils.Null();
+        return TGS_FuncUtils.Null();
     }
 
     public void run(A input0, B input1, C input2, D input3);
