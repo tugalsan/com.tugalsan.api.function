@@ -2,7 +2,7 @@ package com.tugalsan.api.function.client;
 
 public interface TGS_Func_In2<A, B> extends TGS_Func_OutTyped_In2<Void, A, B> /*, BiConsumer<A>*/ {
 
-        final public static TGS_Func_In2 empty = (a,b) -> {
+    final public static TGS_Func_In2 empty = (a, b) -> {
     };
     
 //    @Override | Clashes with BiFunction
